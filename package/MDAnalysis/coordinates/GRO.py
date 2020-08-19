@@ -40,7 +40,7 @@ identities of atoms.
 
 For example::
 
-   >>> u = mda.Universe()`
+   >>> u = mda.Universe()
 
    >>> u.atoms.write('out.gro', reindex=False)
 
